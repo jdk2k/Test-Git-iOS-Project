@@ -21,6 +21,7 @@
 		96EA3BB319B8EA260019C51C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EA3B9519B8EA260019C51C /* UIKit.framework */; };
 		96EA3BBB19B8EA260019C51C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96EA3BB919B8EA260019C51C /* InfoPlist.strings */; };
 		96EA3BBD19B8EA260019C51C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA3BBC19B8EA260019C51C /* Git_TestTests.m */; };
+		96EA3BC819B8F8010019C51C /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA3BC719B8F8010019C51C /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		96EA3BB819B8EA260019C51C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		96EA3BBA19B8EA260019C51C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96EA3BBC19B8EA260019C51C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		96EA3BC619B8F8010019C51C /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		96EA3BC719B8F8010019C51C /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				96EA3BA719B8EA260019C51C /* ViewController.m */,
 				96EA3BA919B8EA260019C51C /* Images.xcassets */,
 				96EA3B9819B8EA260019C51C /* Supporting Files */,
+				96EA3BC619B8F8010019C51C /* Test.h */,
+				96EA3BC719B8F8010019C51C /* Test.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96EA3BA819B8EA260019C51C /* ViewController.m in Sources */,
+				96EA3BC819B8F8010019C51C /* Test.m in Sources */,
 				96EA3BA219B8EA260019C51C /* AppDelegate.m in Sources */,
 				96EA3B9E19B8EA260019C51C /* main.m in Sources */,
 			);
